@@ -1,5 +1,5 @@
 ## Git 명령어
-1. 환경설정
+### 환경설정
  * git config --global --list 
     * 현재 설정정보 조회할 수 있습니다. --global옵션은 전역설정에 대한 옵션이며 현재 프로젝트에만 적용할때는 주지 않는다.
  * git config --global user.name "사용자명" 
