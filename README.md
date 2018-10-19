@@ -1,7 +1,6 @@
 ## **Git 명령어**
          
----
- 
+
 ### **환경설정**
  * git config --global --list 
     * 현재 설정정보 조회할 수 있습니다. --global옵션은 전역설정에 대한 옵션이며 현재 프로젝트에만 적용할때는 주지 않는다.
@@ -111,7 +110,9 @@
      * 서브모듈을 초기화 합니다.
  * git submodule update 서브모듈경로
      * 서브모듈의 변경사항을 적용합니다.(저장소의 최신커밋을 추적하지 않습니다.)
-
+         
+---
+ 
 ###  **기타 명령어** 
  * git archive --format=tar --prefix=폴더명/ 브랜치혹은태그 | gzip > 파일명.tar.gz </br>
    or git archive --format=zip --prefix=폴더명/ 브랜치혹은태그 > 파일명.zip
