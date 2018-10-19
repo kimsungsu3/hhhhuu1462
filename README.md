@@ -1,4 +1,4 @@
-## Git 명령어
+## Git 명령어(#)
 ### 환경설정
  * git config --global --list 
     * 현재 설정정보 조회할 수 있습니다. --global옵션은 전역설정에 대한 옵션이며 현재 프로젝트에만 적용할때는 주지 않는다.
@@ -101,8 +101,7 @@
 
 ###  기타 명령어 
  * git archive --format=tar --prefix=폴더명/ 브랜치혹은태그 | gzip > 파일명.tar.gz </br>
-   or </br> 
-   git archive --format=zip --prefix=폴더명/ 브랜치혹은태그 > 파일명.zip
+   or git archive --format=zip --prefix=폴더명/ 브랜치혹은태그 > 파일명.zip
      * 해당 브랜치나 태그를 압축파일로 만듭니다. --prefix를 주면 압축하일이 해당폴더 안에 생성되도록 할 수 있습니다.
  * git mergetool
      * 설정에 merge.tool의 값에 있는 머지툴을 찾아서 실행합니다.
