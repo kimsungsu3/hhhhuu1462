@@ -100,8 +100,8 @@
      * 서브모듈의 변경사항을 적용합니다.(저장소의 최신커밋을 추적하지 않습니다.)
 
 ###  기타 명령어 
- * git archive --format=tar --prefix=폴더명/ 브랜치혹은태그 | gzip > 파일명.tar.gz
-   <span style="color:red"> or </span>
+ * git archive --format=tar --prefix=폴더명/ 브랜치혹은태그 | gzip > 파일명.tar.gz </br>
+   or </br> 
    git archive --format=zip --prefix=폴더명/ 브랜치혹은태그 > 파일명.zip
      * 해당 브랜치나 태그를 압축파일로 만듭니다. --prefix를 주면 압축하일이 해당폴더 안에 생성되도록 할 수 있습니다.
  * git mergetool
